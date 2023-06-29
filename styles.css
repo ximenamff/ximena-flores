@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+.login{
+    background: linear-gradient(to bottom left,blue,red);
+background-size: 100%;
+display: flex;
+margin: 10%;
+
+}
+.principal{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: center;
+    padding: 5% 0;
+
+}
+.top{
+    display: flex;
+    justify-content: center;
+}
+.top_a{
+    color: rgb(38, 103, 255);
+    text-decoration: none;
+}
+.form{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+#form_joint{
+    width: 35%;
+}
+#form_checkbox{
+    width: min-content;
+}
+#form_submit{
+    background-color: rgb(43, 117, 255) ;
+}
